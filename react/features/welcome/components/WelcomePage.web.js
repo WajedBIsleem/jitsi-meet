@@ -126,8 +126,6 @@ class WelcomePage extends AbstractWelcomePage {
      */
     componentDidMount() {
         super.componentDidMount();
-        
-        window.location.href = "https://www.google.com";
 
         document.body.classList.add('welcome-page');
         document.title = interfaceConfig.APP_NAME;
@@ -162,8 +160,7 @@ class WelcomePage extends AbstractWelcomePage {
      */
     componentWillUnmount() {
         super.componentWillUnmount();
-        window.location.href = "https://www.google.com";
-        
+
         document.body.classList.remove('welcome-page');
     }
 
