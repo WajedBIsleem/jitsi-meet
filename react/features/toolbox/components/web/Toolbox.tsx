@@ -242,7 +242,8 @@ export default function Toolbox({
     return (
         <div
             className = { cx(rootClassNames, shiftUp && 'shift-up') }
-            id = 'new-toolbox'>
+            id = 'new-toolbox'
+            data-test="Wajed">
             <div className = { containerClassName }>
                 <div
                     className = 'toolbox-content-wrapper'
